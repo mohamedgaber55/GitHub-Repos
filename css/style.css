@@ -263,7 +263,8 @@ footer span{
         flex-direction: column;
     }
     .content .card{
-        margin: 10px 30px;
+        margin: 10px;
+        width: 340px;
     }
     .content .or::after,
     .content .or::before{
