@@ -266,10 +266,10 @@ footer span{
         margin: 13px 5px;
     }
     .content .one{
-        margin-bottom: 10px;
+        margin: 12px;
     }
     .content .two{
-        margin-top: 10px;
+        margin: 12px;
     }
     .content .or::after,
     .content .or::before{
