@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Repos App</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>GitHub Repos</h2>
+        </div>
+        <div class="content">
+            <div class="left">
+                <div class="card one">
+                    <h3>Get Repos By Username</h3>
+                    <div class="form">
+                    <input type="text" name="" id="username" placeholder="Enter Username..">
+                    <button class="get-repos">Get Repos</button>
+                    </div>
+                </div>
+                <p class="or">or</p>
+                <div class="card two">
+                    <h3>Search By Topic</h3>
+                    <div class="language">
+                        <button data-language="html">Html</button>
+                        <button data-language="css">Css</button>
+                        <button data-language="javaScript">Js</button>
+                        <button data-language="php">Php</button>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <p class="search-term"></p>
+                <div class="repos"></div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        Made By <span>Mohamed Gaber</span>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

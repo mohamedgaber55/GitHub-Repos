@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+    font-family: "Titillium Web", sans-serif;
+}
+:root{
+    --main-background : #0b3d56;
+    --background-two : white;
+    --buttons-color :#4baeff;
+}
+.container{
+    background-color: var(--background-two);
+    height: calc(100%);
+    background-color: #f8f8f8;
+    font-weight: bold;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.header{
+    width: 100%;
+}
+.header h2{
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--main-background);
+    max-width: 500px;
+    background-color: white;
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 30px;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 100px 100px ;
+}
+.content .or{
+    text-align: center;
+    position: relative;
+    color: #0b3d56;
+}
+.content .or::after,
+.content .or::before{
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 1px;
+    top: 50%;
+}
+.content .or::before{
+    background-image: linear-gradient(to right ,#4baeff 0%, #eee 100%);
+    right: 10%;
+}
+.content .or::after{
+    background-image: linear-gradient(to left ,#4baeff 0%, #eee 100%);
+    left: 10%;
+
+}
+.content .card{
+    width: 350px;
+    margin: 30px;
+    background-color: white;
+    padding: 20px;
+    color: var(--main-background);
+    box-shadow: 0px 0px 5px 0px #ececec;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.content .one{
+    margin-bottom: 10px;
+}
+.content .two{
+    margin-top: 10px;
+}
+.content .card h3{
+    margin: 10px;
+}
+.content .card .form{
+    padding: 10px;
+}
+.content .card .form input{
+    width: 100%;
+    display: block;
+    margin: 0px;
+    font-size: 20px;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.1);
+
+}
+.content .card .form button{
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+}
+.content .card .form input{
+    padding: 10px 10px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    caret-color: var(--buttons-color);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.content .card .form button{
+    padding: 5px;
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: var(--buttons-color);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+.language button{
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: var(--buttons-color);
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 5px 0px;
+    transition: .3s;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+.content .card .form button:hover,
+.language :hover{
+    background-color: #2196F3;
+}
+.left{
+    margin-top: 20px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+.right{
+    width: 100%;
+    margin: 55px 60px 30px;
+}
+.right p{
+    color: var(--main-background);
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.right .repo{
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+    background-color: white;
+    color: var(--main-background);
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.right .repo a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: #0b3d56; 
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3);
+    padding: 5px 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+footer{
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    border-top: 1px solid #ddd;
+    padding: 5px;
+    background-color: #fff;
+}
+footer span{
+    color: #03A9F4;
+    font-weight: bold;
+}
+
+
+.swal2-styled{
+    background-color: var(--main-background);
+}
+.swal2-title{
+    color: #2196F3;
+}
+@media (max-width : 1030px) {
+    .content{
+        flex-wrap: wrap;
+    }
+    .content .left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .content .one{
+        display: flex;
+        flex-direction: column;
+        height: 255px;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .content .two{
+        margin-top: 30px;
+    }
+    .content .or::after,
+    .content .or::before{
+        display: none;
+    }
+    .right {
+        margin: 0px 60px 10px;
+    }
+    .right p {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
+@media (max-width : 645px) {
+    .content{
+        flex-wrap: wrap;
+    }
+    .header h2 {
+        margin: 0px;
+    }
+    .content .left{
+        display: block;
+    }
+    .content .card{
+        margin: 13px;
+    }
+    .content .one{
+        margin-bottom: 10px;
+    }
+    .content .two{
+        margin-top: 10px;
+    }
+    .content .or::after,
+    .content .or::before{
+        display: block;
+        margin: 0px -20px;
+    }
+    .right {
+        margin: 0px;
+    }
+}
