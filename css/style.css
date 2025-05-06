@@ -49,11 +49,11 @@
     top: 50%;
 }
 .content .or::before{
-    background-image: linear-gradient(to right ,#4baeff 0%, #eee 100%);
+    background-image: linear-gradient(to left ,#4baeff 0%, #eee 100%);
     right: 10%;
 }
 .content .or::after{
-    background-image: linear-gradient(to left ,#4baeff 0%, #eee 100%);
+    background-image: linear-gradient(to right ,#4baeff 0%, #eee 100%);
     left: 10%;
 
 }
@@ -263,18 +263,12 @@ footer span{
         flex-direction: column;
     }
     .content .card{
-        margin: 13px 5px;
-    }
-    .content .one{
-        margin: 12px;
-    }
-    .content .two{
-        margin: 12px;
+        margin: 10px auto;
     }
     .content .or::after,
     .content .or::before{
         display: block;
-        margin: 0px -20px;
+        margin: 0px 20px;
     }
     .right {
         margin: 10px;
