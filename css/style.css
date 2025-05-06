@@ -260,7 +260,7 @@ footer span{
         margin: 0px;
     }
     .content .left{
-        display: block;
+        flex-direction: column;
     }
     .content .card{
         margin: 13px 5px;
