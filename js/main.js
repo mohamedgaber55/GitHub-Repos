@@ -19,7 +19,7 @@ function fetchUsername(){
         if(repos.length === 0){
             Swal.fire({
                 icon: "error",
-                title: "Oops...",
+                title: "Sorry...",
                 text: "Unvalid Username!",
             });
             searchTerm.innerHTML = '';
