@@ -176,7 +176,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    text-transform: capitalize;
     background-color: white;
     color: var(--main-background);
     box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.1);
