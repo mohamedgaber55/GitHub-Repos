@@ -90,7 +90,7 @@ getRepos.onclick =  function(){
     if(username.value === ''){
         Swal.fire({
             icon: "error",
-            title: "Oops...",
+            title: "Sorry..",
             text: "Username Can't Be Empty!",
         });
     }else {
